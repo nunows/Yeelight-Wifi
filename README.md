@@ -27,8 +27,9 @@ lamp = Yeelight.new('192.168.1.255',55443)
 # get the "power" property
 puts lamp.get_prop('"power")
 
-# toggle the smart LED.
+# toggle the smart LED
 puts lamp.toggle()
+
 ```
 
 Note: Only tested with Yeelight LED Bulb (Color) with the firmware 1.3.1_40
