@@ -25,7 +25,7 @@ require './yeelight'
 lamp = Yeelight.new('192.168.1.255',55443)
 
 # get the "power" property
-puts lamp.get_prop('"power")
+puts lamp.get_prop('"power"')
 
 # toggle the smart LED
 puts lamp.toggle()
